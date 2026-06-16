@@ -43,7 +43,7 @@ while True:
     if choice == 1:
         name = input("Enter Student name: ")
         try:
-            grade = int(input("Enter garde: "))
+            grade = int(input("Enter grade: "))
             add_student(name,grade)
         except ValueError:
             print("Enter a valid grade number")
